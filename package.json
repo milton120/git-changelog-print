@@ -1,0 +1,32 @@
+{
+  "name": "git-changelog-print",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milton120/git-changelog-print.git"
+  },
+  "keywords": [
+    "git",
+    "changelog",
+    "log",
+    "generator",
+    "commit",
+    "tag",
+    "print",
+    "history"
+  ],
+  "author": "Milton Marma <miltonmarma120@gmail.com> (https://github.com/milton120)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/milton120/git-changelog-print/issues"
+  },
+  "homepage": "https://github.com/milton120/git-changelog-print#readme",
+  "dependencies": {
+    "commander": "^4.1.1"
+  }
+}
