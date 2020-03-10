@@ -2,7 +2,11 @@
   "name": "git-changelog-print",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./bin/index.js",
+  "preferGlobal": true,
+  "bin": {
+    "git-changelog-print": "./bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,6 +31,7 @@
   },
   "homepage": "https://github.com/milton120/git-changelog-print#readme",
   "dependencies": {
-    "commander": "^4.1.1"
+    "commander": "^4.1.1",
+    "execa": "^4.0.0"
   }
 }
